@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/meal.dart';
+import '../screens/meal_detail_screen.dart';
 
 @immutable
 class MealItem extends StatelessWidget {
@@ -50,10 +51,10 @@ class MealItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        // Navigator.of(context).pushNamed(
-        //   MealDetailScreen.routeName,
-        //   arguments: id,
-        // );
+        Navigator.of(context).pushNamed(
+          MealDetailScreen.routeName,
+          arguments: id,
+        );
       },
       child: Card(
         shape: const RoundedRectangleBorder(
