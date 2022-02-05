@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/material/icons.dart';
-import 'package:meal_app/screens/category_meal_screen.dart';
-import 'package:meal_app/screens/favorite_screen.dart';
+
+import 'favorite_screen.dart';
 import 'categories_screen.dart';
 
 class TabsScreen extends StatefulWidget {
@@ -12,28 +11,37 @@ class TabsScreen extends StatefulWidget {
 }
 
 class _TabsScreenState extends State<TabsScreen> {
+  final List<Map<String, dynamic>> _pages = [
+    {'page': const CategoriesScreen(), 'title': 'Category'},
+    {'page': const FavoriteScreen(), 'title': 'Favorites'}
+  ];
+  int _selectedIndex = 0;
+
+  void _selectedPage(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-        length: 2,
-        initialIndex: 0,
-        child: Scaffold(
-          appBar: AppBar(
-            title: const Text('Meals'),
-            bottom: const TabBar(
-              tabs: <Widget>[
-                Tab(
-                  icon: Icon(Icons.category),
-                  text: 'Categories',
-                ),
-                Tab(
-                  icon: Icon(Icons.favorite),
-                  text: 'Favorites',
-                )
-              ],
-            ),
-          ),
-          body: TabBarView(children: [CategoriesScreen(), FavoriteScreen()]),
-        ));
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(_pages[_selectedIndex]['title']),
+      ),
+      body: _pages[_selectedIndex]['page'],
+      bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: Theme.of(context).colorScheme.primary,
+        unselectedItemColor: Theme.of(context).colorScheme.secondary,
+        currentIndex: _selectedIndex,
+        onTap: _selectedPage,
+        items: const [
+          BottomNavigationBarItem(
+              icon: Icon(Icons.category), label: 'Category'),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.favorite), label: 'Favorites'),
+        ],
+      ),
+    );
   }
 }
