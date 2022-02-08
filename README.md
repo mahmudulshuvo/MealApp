@@ -13,4 +13,4 @@ This is a starter project for anyone who wants get a hands-on experience on Flut
 
 ## Screens
 
-![Home Page](assets/images/home.png | width=300)
+![Home Page](assets/images/home.png){:height="36px" width="36px"}.
