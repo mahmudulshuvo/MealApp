@@ -13,4 +13,4 @@ This is a starter project for anyone who wants get a hands-on experience on Flut
 
 ## Screens
 
-![](https://drive.google.com/file/d/1Vl8fOD4yjXqhxseCw68AJjfDs2SDR5SQ/view?usp=sharing)
+![](https://photos.app.goo.gl/DtjYCA3YnD6x5Hk9A)
