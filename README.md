@@ -13,4 +13,4 @@ This is a starter project for anyone who wants get a hands-on experience on Flut
 
 ## Screens
 
-![](https://photos.app.goo.gl/DtjYCA3YnD6x5Hk9A)
+![Home Page](assets/images/home.png)
