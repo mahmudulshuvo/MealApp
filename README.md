@@ -1,16 +1,16 @@
-# meal_app
+# Meal Application
 
-A new Flutter project.
+This is a starter project for anyone who wants get a hands-on experience on Flutter.
 
-## Getting Started
+## Things that have covered
 
-This project is a starting point for a Flutter application.
+- StateFull and StateLess Class
+- Navigation with Tabbar, Drawer, routes
+- Software architecture with seperate Model, Screens and Widgets
+- Passing data, function back and forth to different Widgets and Screens
+- Some lifecycle hooks like initState and didChangeDependecies
+- Beautiful UI with Grid, Card, List, Custom Theme, Custom Font, Switches and many more
 
-A few resources to get you started if this is your first Flutter project:
+## Screens
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](https://drive.google.com/file/d/1Vl8fOD4yjXqhxseCw68AJjfDs2SDR5SQ/view?usp=sharing)
