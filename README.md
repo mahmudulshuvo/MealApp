@@ -13,21 +13,38 @@ This is a starter project for anyone who wants get a hands-on experience on Flut
 
 ## Here's all the screens of the app
 
-Home:
-<img src="assets/images/home.png" alt="Home" width="250" height="400"/>
+<p align="center">
+  <img src="assets/images/home.png" alt="Home" width="250" height="450"/>
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="assets/images/category_screen.png" alt="Category Screen" width="250" height="450"/>
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="assets/images/category_details_screen.png" alt="Category Details Screen" width="250" height="450"/>
+</p>
+<p align="center">
+  Home
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  Category
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  Category Detail
+</p>
 
-Category:
-<img src="assets/images/category_screen.png" alt="Category Screen" width="250" height="400"/>
+<p align="center">
+  <img src="assets/images/drawer.png" alt="Drawer" width="250" height="450"/>
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="assets/images/favorites.png" alt="Favorites" width="250" height="450"/>
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="assets/images/filters.png" alt="Filters" width="250" height="450"/>
+</p>
+<p align="center">
+  Drawer
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  Favorite
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  Filters
+</p>
 
-Category Detail:
-<img src="assets/images/category_details_screen.png" alt="Category Details Screen" width="250" height="400"/>
 
-Drawer:
-<img src="assets/images/drawer.png" alt="Drawer" width="250" height="400"/>
 
-Favorite:
-<img src="assets/images/favorites.png" alt="Favorites" width="250" height="400"/>
 
-Filters:
-<img src="assets/images/filters.png" alt="Filters" width="250" height="400"/>
+
 
